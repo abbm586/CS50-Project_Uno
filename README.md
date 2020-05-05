@@ -1,6 +1,6 @@
 # CS50-Project_Uno
 
-This Project ispart of the Harvard Computer Science Online module.
+This Project is part of the Harvard Computer Science Online module, via edX.org.
 This is Project 1, create a book review and pull reviews via API from Goodread.com
 
 The website is a WebApp using the Python Flask framework that has the following features:
