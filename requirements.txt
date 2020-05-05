@@ -1,0 +1,11 @@
+flask == 1.1.2
+wtforms
+Jinja2 == 2.11.2
+MarkupSafe == 1.1.1
+Werkzeug == 0.16.1
+click == 7.1.1
+itsdangerous
+python-dotenv == 0.13.0
+
+psycopg2
+email_validator
