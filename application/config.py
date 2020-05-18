@@ -1,0 +1,7 @@
+
+
+class Config():
+    SECRET_KEY = '8UIF57438QOIFEW54O43798J'
+    SQLALCHEMY_DATABASE_URI = 'postgres://egvplgcwydqmrm:1eab8f4046afdd9b08e398512d175d7698a9561a55ad901d94f5fdb4675200ca@ec2-18-215-99-63.compute-1.amazonaws.com:5432/d36p83fc758480'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
+    SQLALCHEMY_ECHO = True
