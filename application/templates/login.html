@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+
+{% block navbar %}
+    <li><a href="/register">Sign Up</a></li>
+{#    <li class="active"><a href="/login">login</a></li>#}
+{% endblock %}
+
+
+
+{% block main_contents %}
+        <div class="home_content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-3">
+                            <!-- Post Comment -->
+                            <div class="post_comment">
+                                <div class="contact_form_container">
+                                    <h4>Login to you're Account</h4>
+                                    <form action="#" method="post"> {{ form.csrf_token }}
+                                        <input class="contact_input contact_input_name" type="email" name="email" placeholder="Email" required="required">
+                                        <input class="contact_input contact_input_name" type="password" name="password" placeholder="Password" required="required">
+
+                                        <button type="submit" class="contact_button">Sign In</button>
+                                    </form>
+                                    <small>I dont have account, <a class="active" href="/register" >Sign Up</a></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+{% endblock %}

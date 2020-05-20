@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{% block navbar %}
+    <li><a href="{{ url_for('auth_bp.register') }}">Sign Up</a></li>
+    <li class="active"><a href="{{ url_for('auth_bp.login') }}">login</a></li>
+{% endblock %}
+
+{% block main_content %}
+    <h3> Landing Page</h3>
+
+{% endblock %}
